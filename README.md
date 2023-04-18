@@ -3,6 +3,9 @@
 Welcome to Jumper Frog! This is a simple 2D game where the player controls a frog that needs to cross the road while avoiding the driving cars.
 
 ![Alt text](Assets/Screenshots/midgameScreenshot.png)
+# Play
+[Play on itch.io](https://barakdf.itch.io/frog-jump)
+
 # Gameplay
 The objective of the game is to help the frog cross the road and the river by avoiding the moving cars. The game ends in failure when the frog gets hit by a car, or in success if the frog gets to the other side.
 
