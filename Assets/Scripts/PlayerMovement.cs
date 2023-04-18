@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [Tooltip("Step size in meters")] [SerializeField] float speed = 1f;
 
     [SerializeField]
     InputAction moveUp = new InputAction(type: InputActionType.Button);
