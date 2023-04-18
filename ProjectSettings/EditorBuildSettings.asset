@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/FrogGame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/YouWin.unity
+    guid: b1f6a28fd083d764986a271397771434
+  - enabled: 1
+    path: Assets/Scenes/YouLose.unity
+    guid: 1d94cc0ebb342e24b8a8950c4a3bb594
   m_configObjects: {}

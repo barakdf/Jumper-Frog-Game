@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6454572282590876202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6454572282590876203}
+  - component: {fileID: 6454572282590876200}
+  m_Layer: 6
+  m_Name: CarsSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6454572282590876203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6454572282590876202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.2, y: -2.66, z: 0}
+  m_LocalScale: {x: 1.45, y: 1.45, z: 1.45}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6454572282590876200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6454572282590876202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c0c2bfc3d0fcf47826e07600409981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn:
+  - {fileID: -4109954889310465261, guid: 21d352c9eff81ba4db83b41c65cd4092, type: 3}
+  - {fileID: -5058662909185633442, guid: e6f041cde14d13e4f9bf8cd8403693cc, type: 3}
+  - {fileID: 631712013073463228, guid: 54f76b30e9eab7f4085d4151db7f64b9, type: 3}
+  - {fileID: -2535925009259532672, guid: 5734b426aacf932448d3b8551f56af1f, type: 3}
+  - {fileID: 4989366750560466171, guid: 112571eb6e253c24188cea58dbe65a6b, type: 3}
+  - {fileID: 4008477310197541569, guid: 554260c59c0c5884aab559e4968ec3a7, type: 3}
+  - {fileID: 4746077550090104670, guid: 07afd46395dae4a468ab144d7af00de5, type: 3}
+  - {fileID: 504998615150097623, guid: fe258a996da846d4ea63870112f81d5b, type: 3}
+  velocityOfSpawnedObjects: 1
+  minTimeBetweenSpawns: 3
+  maxTimeBetweenSpawns: 6
