@@ -19,3 +19,11 @@ The controls for the game are as follows:
 
 ![Alt text](Assets/Screenshots/WinScreenshot.png)
 ![Alt text](Assets/Screenshots/LoseScreenshot.png)
+
+# Code
+
+This is the following scripts I used for thie implementation:
+- [TimeSpawner](Assets/Scripts/TimedSpawner.cs) and [Mover](Assets/Scripts/Mover.cs) for the cars spawn.
+- [PlayerMovement](Assets/Scripts/PlayerMovement.cs) for the frog movement on the map.
+- [DestroyOnTrigger2D](Assets/Scripts/DestroyOnTrigger2D.cs) for handling collision between frog and cars.
+- [WinDirect](Assets/Scripts/WinDirect.cs) for directing the player to the winner scene.
